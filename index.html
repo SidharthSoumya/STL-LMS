@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LMS</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <div class="main-container">
+        <div class="top-bar row">
+            <div class="col-sm-10 col-md-9 col-6">
+                <img src="images/logo.png" alt="" class="logo-img">
+            </div>
+            <div class="col-sm-2 col-md-3 col-6 text-right mt-3">
+                <i class="fa fa-search top-icon" aria-hidden="true"></i>
+                <i class="fa fa-bars top-icon-bar" aria-hidden="true"></i>
+            </div>
+            <div class="rule-container">
+                <hr>
+            </div>
+            <div class="container-fluid p-0">
+
+                <div id="Slider" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#Slider" data-slide-to="0" class="active"></li>
+                        <li data-target="#Slider" data-slide-to="1" class="active"></li>
+                        <li data-target="#Slider" data-slide-to="2" class="active"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item banner-bg">
+                            <p class="banner-top-head">Simple. Robust. Secure.</p>
+                            <p class="banner-head">Learning Management System</p>
+                            <p class="banner-desc">
+                                Edusols is a customized software created to streamline <br>
+                                and facilitate data-intensive process like learning, <br>
+                                accessment, training and more.
+                            </p>
+                            <div class="banner-btn-group">
+                                <button class="free-trial btn">
+                                    Start your free trial
+                                </button>
+                                <button class="schedule-demo btn">
+                                    Schedule a Demo
+                                </button>
+                                <div class="quick-tour text-center">
+                                    <button class="tour btn">
+                                        <i class="fa fa-play" aria-hidden="true"></i>
+                                    </button>
+                                    <p class="tour-text text-center">Quick Tour</p>
+                                </div>
+                            </div>
+                            <div class="banner-data">
+                                <div class="banner-data-segment">
+                                    <p class="count mb-0">23</p>
+                                    <p class="banner-data-segment-desc mb-0">SCHOOLS</p>
+                                </div>
+                                <div class="banner-data-segment">
+                                    <p class="count mb-0">7</p>
+                                    <p class="banner-data-segment-desc  mb-0">UNIVERSITY</p>
+                                </div>
+                                <div class="banner-data-segment">
+                                    <p class="count mb-0">2500</p>
+                                    <p class="banner-data-segment-desc  mb-0">STUDENTS</p>
+                                </div>
+                                <div class="banner-data-segment">
+                                    <p class="count mb-0">457</p>
+                                    <p class="banner-data-segment-desc  mb-0">FACULTY</p>
+                                </div>
+                            </div>
+                            <!-- <img class="d-block w-100" alt="First slide [800x400]" src="images/slider.png"
+                                data-holder-rendered="true" /> -->
+                            <div class="carousel-caption d-none d-md-block">
+                            </div>
+                        </div>
+                        <div class="carousel-item active banner-bg carousel-item-left">
+                            <p class="banner-top-head">Simple. Robust. Secure.</p>
+                            <p class="banner-head">Learning Management System</p>
+                            <p class="banner-desc">
+                                Edusols is a customized software created to streamline <br>
+                                and facilitate data-intensive process like learning, <br>
+                                accessment, training and more.
+                            </p>
+                            <div class="banner-btn-group ">
+                                <button class="free-trial btn">
+                                    Start your free trial
+                                </button>
+                                <button class="schedule-demo btn">
+                                    Schedule a Demo
+                                </button>
+                                <div class="quick-tour text-center">
+                                    <button class="tour btn">
+                                        <i class="fa fa-play" aria-hidden="true"></i>
+                                    </button>
+                                    <p class="tour-text text-center">Quick Tour</p>
+                                </div>
+                            </div>
+                            <div class="banner-data">
+                                <div class="banner-data-segment">
+                                    <p class="count mb-0">23</p>
+                                    <p class="banner-data-segment-desc mb-0">SCHOOLS</p>
+                                </div>
+                                <div class="banner-data-segment">
+                                    <p class="count mb-0">7</p>
+                                    <p class="banner-data-segment-desc mb-0">UNIVERSITY</p>
+                                </div>
+                                <div class="banner-data-segment">
+                                    <p class="count mb-0">2500</p>
+                                    <p class="banner-data-segment-desc mb-0">STUDENTS</p>
+                                </div>
+                                <div class="banner-data-segment">
+                                    <p class="count mb-0">457</p>
+                                    <p class="banner-data-segment-desc mb-0">FACULTY</p>
+                                </div>
+                            </div>
+                            <!-- <img class="d-block w-100" alt="First slide [800x400]" src="images/slider.png"
+                                data-holder-rendered="true" /> -->
+                            <div class="carousel-caption d-none d-md-block">
+                            </div>
+                        </div>
+                        <div class="carousel-item carousel-item-next banner-bg carousel-item-left">
+                            <p class="banner-top-head">Simple. Robust. Secure.</p>
+                            <p class="banner-head">Learning Management System</p>
+                            <p class="banner-desc">
+                                Edusols is a customized software created to streamline <br>
+                                and facilitate data-intensive process like learning, <br>
+                                accessment, training and more.
+                            </p>
+                            <div class="banner-btn-group ">
+                                <button class="free-trial btn">
+                                    Start your free trial
+                                </button>
+                                <button class="schedule-demo btn">
+                                    Schedule a Demo
+                                </button>
+                                <div class="quick-tour text-center">
+                                    <button class="tour btn">
+                                        <i class="fa fa-play" aria-hidden="true"></i>
+                                    </button>
+                                    <p class="tour-text text-center">Quick Tour</p>
+                                </div>
+                            </div>
+                            <div class="banner-data">
+                                <div class="banner-data-segment">
+                                    <p class="count mb-0">23</p>
+                                    <p class="banner-data-segment-desc mb-0">SCHOOLS</p>
+                                </div>
+                                <div class="banner-data-segment">
+                                    <p class="count mb-0">7</p>
+                                    <p class="banner-data-segment-desc  mb-0">UNIVERSITY</p>
+                                </div>
+                                <div class="banner-data-segment">
+                                    <p class="count mb-0">2500</p>
+                                    <p class="banner-data-segment-desc  mb-0">STUDENTS</p>
+                                </div>
+                                <div class="banner-data-segment">
+                                    <p class="count mb-0">457</p>
+                                    <p class="banner-data-segment-desc  mb-0">FACULTY</p>
+                                </div>
+                            </div>
+                            <!-- <img class="d-block w-100" alt="First slide [800x400]" src="images/slider.png"
+                                data-holder-rendered="true" /> -->
+                            <div class="carousel-caption d-none d-md-block">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container client">
+            <h2 class="client-head">Clients</h2>
+            <div class="client-logos">
+                <div class="client-logo">
+                    <img src="images/singaporefoundation.png" class="clint-logo-img" alt="">
+                </div>
+                <div class="client-logo">
+                    <img src="images/parc.png" class="clint-logo-img" alt="">
+                </div>
+                <div class="client-logo">
+                    <img src="images/nanosolar.png" class="clint-logo-img" alt="">
+                </div>
+                <div class="client-logo">
+                    <img src="images/mtn.png" class="clint-logo-img" alt="">
+                </div>
+                <div class="client-logo">
+                    <img src="images/marvell.png" class="clint-logo-img" alt="">
+                </div>
+            </div>
+            <h2 class="text-center client-title">Our best we are doing now and next</h2>
+            <hr class="brdr">
+            <div class="client-cards row">
+                <div class="col-sm-4">
+                    <div class="client-card">
+                        <img src="images/product1.png" alt="" class="client-img">
+                        <div class="prod-details">
+                            <h6 class="prod-head">Learning Management Syatem</h6>
+                            <p class="prod-desc">Building social learning experience powered by Artificial intelligence
+                            </p>
+                            <div class="text-center">
+                                <button class="btn explore-btn">EXPLORE</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="client-card">
+                        <img src="images/product2.png" alt="" class="client-img">
+                        <div class="prod-details">
+                            <h4 class="prod-head">Exam Management Syatem</h4>
+                            <p class="prod-desc">Building social learning experience powered by Artificial intelligence
+                            </p>
+                            <div class="text-center">
+                                <button class="btn explore-btn">EXPLORE</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 ">
+                    <div class="client-card">
+                        <img src="images/product3.png" alt="" class="client-img">
+                        <div class="prod-details">
+                            <h4 class="prod-head">Assessment Syatem</h4>
+                            <p class="prod-desc">Building social learning experience powered by Artificial intelligence
+                            </p>
+                            <div class="text-center">
+                                <button class="btn explore-btn">EXPLORE</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="client-desc">
+                <p>At zero cost for employers, our platform connects companies with displaced workforces to those
+                    companies in need</p>
+                <button class="btn view-all-btn">View All</button>
+            </div>
+        </div>
+        <div class="container-fluid capabilities">
+            <div class="row">
+                <div class="col-sm-4 core">
+                    <p class="core-head">Core Capabilities</p>
+                    <p class="core-sub-head">
+                        Build Vital Capabilities to deliver <br>
+                        digital outcomes
+                    </p>
+                    <div class="core-content">
+                        <ul>
+                            <li class="active-content">Mobility Solutions Web</li>
+                            <li>Data Mining & Analytics</li>
+                            <li>Open Source Technologies</li>
+                            <li>Internet of Things</li>
+                            <li>Cloud Computong</li>
+                            <li>Platforms</li>
+                        </ul>
+                    </div>
+
+                </div>
+                <div class="col-sm-5 e-learning">
+                    <img src="images/mobilesolution-banner.png" alt="">
+                    <p class="e-learn-head">Building social learning experience powered by <br>
+                        Artificial Intelligent
+                    </p>
+                    <p class="e-learn-desc">
+                        Automate learning management, facilitate informal learning and personalize <br>
+                        the learner experience to make learning your competitive experience
+                    </p>
+                    <p class="e-learn-desc">Read More</p>
+                </div>
+                <div class="col-sm-3 mobility">
+                    <div class="mobility-head">Mobility Solutions Web</div>
+                    <hr class="brdr-left-mobility">
+                    <ul>
+                        <li class="pt-1">Corporate Overview</li>
+                        <li>Vision and Values</li>
+                        <li>Industry Recognition</li>
+                        <li>Leadership Team</li>
+                        <li>STL Fellows</li>
+                        <li>Corporate Social</li>
+                        <li>Responsibility</li>
+                        <li>Press Releases</li>
+                        <li>STL Foundation</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid industry">
+            <h1 class="ind-head">Industries Served</h1>
+            <hr class="brdr-left-ind">
+            <p class="ind-desc">
+                Our systematic, value added productized service solutions, STL solutions have served customers in the
+                education, <br>
+                healthcare and e-government services sector
+            </p>
+            <div class="sectors">
+                <div class="sec-card">
+                    <div class="sec-icon">
+                        <img src="images/edu.png" alt="">
+                    </div>
+                    <p class="sec-head">Education & eLearning</p>
+                </div>
+                <div class="sec-card">
+                    <div class="sec-icon">
+                        <img src="images/health.png" alt="">
+                    </div>
+                    <p class="sec-head">Health Care</p>
+                </div>
+                <div class="sec-card">
+                    <div class="sec-icon">
+                        <img src="images/real_estate.png" alt="">
+                    </div>
+                    <p class="sec-head">Real Estate Solution</p>
+                </div>
+                <div class="sec-card">
+                    <div class="sec-icon">
+                        <img src="images/ecommerce.png" alt="">
+                    </div>
+                    <p class="sec-head">eCommerce</p>
+                </div>
+                <div class="sec-card">
+                    <div class="sec-icon">
+                        <img src="images/logistics.png" alt="">
+                    </div>
+                    <p class="sec-head">Logistics</p>
+                </div>
+                <div class="sec-card">
+                    <div class="sec-icon">
+                        <img src="images/foods.png" alt="">
+                    </div>
+                    <p class="sec-head">Food & Beverages</p>
+                </div>
+                <div class="sec-card">
+                    <div class="sec-icon">
+                        <img src="images/edu.png" alt="">
+                    </div>
+                    <p class="sec-head">Events</p>
+                </div>
+            </div>
+            <div class="text-center">
+                <button class="btn sec-view">View All</button>
+            </div>
+        </div>
+        <div class="container-fluid navigate">
+            <h1 class="navigation-head text-center">Let's help you navigate your next</h1>
+            <div class="row text-center mb-4">
+                <div class="col-sm-3">
+                    <div class="navigation-card">
+                        <img src="images/team.png" class="navigation-img" alt="">
+                        <p class="nav-card-head">TEAM</p>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="navigation-card">
+                        <img src="images/location.png" class="navigation-img" alt="">
+                        <p class="nav-card-head">LOCATION</p>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="navigation-card">
+                        <img src="images/career.png" class="navigation-img" alt="">
+                        <p class="nav-card-head">CAREER</p>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="navigation-card">
+                        <img src="images/support.png" class="navigation-img" alt="">
+                        <p class="nav-card-head">SUPPORT</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid footer">
+            <div class="row">
+                <div class="col-sm-9">
+                    <div class="row">
+                        <div class="col-sm-3 col-6">
+                            <h3 class="foot-head">About STL</h3>
+                            <ul>
+                                <li>Company Overview</li>
+                                <li>What we do</li>
+                                <li>The STL difference</li>
+                                <li>Our partners</li>
+                                <li>STL core team</li>
+                            </ul>
+                        </div>
+                        <div class="col-sm-3 col-6">
+                            <h3 class="foot-head">Products</h3>
+                            <ul>
+                                <li>Edusols</li>
+                                <li>Health Care</li>
+                                <li>Energy & Utility</li>
+                                <li>Smart Gov</li>
+                            </ul>
+                        </div>
+                        <div class="col-sm-3 col-6">
+                            <h3 class="foot-head">Platforms</h3>
+                            <ul>
+                                <li>BMMA</li>
+                                <li>BMBI</li>
+                                <li>Cloud Services</li>
+                            </ul>
+                        </div>
+                        <div class="col-sm-3 col-6">
+                            <h3 class="foot-head">Support</h3>
+                            <ul>
+                                <li>BMMA</li>
+                                <li>BMBI</li>
+                                <li>Cloud Services</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3 col-12">
+                    <h3 class="foot-head">Connect</h3>
+                    <div class="footer-imgs">
+                        <span class="mr-2">
+                            <img src="images/twitter.png" class="img-ftr" alt="">
+                        </span>
+                        <span class="mr-2">
+                            <img src="images/youtube.png" class="img-ftr" alt="">
+                        </span>
+                        <span class="mr-2">
+                            <img src="images/fb.png" class="img-ftr" alt="">
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div class="foot-content">
+                <span>Terms of Service</span>
+                <span>Privacy Policy</span>
+                <span>Cookie Policy</span>
+                <span>Imprint</span>
+                <span>Compliance</span>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
